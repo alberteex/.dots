@@ -1,6 +1,6 @@
 return {
 	{ 'nvim-treesitter/nvim-treesitter', build = ':TSUpdate' },
-	{ 'folke/tokyonight.nvim', lazy = false },
+	{ 'ellisonleao/gruvbox.nvim', config = true },
 
 	{'williamboman/mason.nvim'},
 	{'williamboman/mason-lspconfig.nvim'},
